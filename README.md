@@ -1,1 +1,3 @@
-# robotics-dev-container
+# Robotics development in a Docker environment.
+
+Develop robotics software solutions in an isolated and reproduceable development environment with Docker. Uses __docker-compose__ to build a container provisioned with a set of common dependencies and tools used in robotics development in C++/Python and set up for remote debugging (tested with CLion). Includes configuration for X11 windows and OpenGL/Pangolin for GUI support. Built from a NVIDIA/Ubuntu base container to support NVIDIA graphics cards which means it requires the nvidia dokcer runtime. Building from a standard Ubuntu base _should_ remove this requirement.
